@@ -5,6 +5,7 @@
         <script src="./jquery-3.2.1.js"></script>        
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
+		<meta charset="UTF-8">
         <style type="text/css">
         	.pad1{
         		margin-left: 50px;
@@ -23,7 +24,7 @@
 
     <body>
     
-		<h2>统一建模语言理论测试</h1>
+		<h2>统一建模语言理论测试</h2>
 
 		<form class="form-inline">
 			 <div class="form-group">
@@ -58,13 +59,13 @@
 			<div class="row form-inline">
 			  	<div class="col-xs-2 choose-pad" style="width: 100%">
 			  		<label class="form-control-static">1. UML的中文全称是：</label>
-			    	<input type="text" class="form-control" placeholder="统一建模语言">
+			    	<input type="text" class="form-control" name="word" id="chi1">
 			  	</div>
 			  	<div class="col-xs-2 choose-pad" style="width: 100%">
 				  	<label class="form-control-static">2. 对象最突出的特征是：</label>
-				    <input type="text" class="form-control" placeholder="封装性">
-				    <input type="text" class="form-control" placeholder="继承性">
-				    <input type="text" class="form-control" placeholder="多态性">
+				    <input type="text" class="form-control" name="word" id="chi2">
+				    <input type="text" class="form-control" name="word" id="chi3">
+				    <input type="text" class="form-control" name="word" id="chi4">
 			  	</div>
 				 
 			</div>
@@ -78,25 +79,25 @@
 					<div class="radio">
 						
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2" checked>
+						    <input type="radio" name="optionsRadios" id="optionsRadios1">
 						    (A) UML就是软件工程
 					  	</label>
 					</div>
 					<div class="radio ">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2" checked>
+						    <input type="radio" name="optionsRadios" id="optionsRadios2">
 						    (B) UML参与到软件工程中软件开发过程的几个阶段
 					  	</label>
 					</div>
 					<div class="radio">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2">
+						    <input type="radio" name="optionsRadios" id="optionsRadios3">
 						     (C) UML与软件工程无关
 					  	</label>
 					</div>
 					<div class="radio">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2">
+						    <input type="radio" name="optionsRadios" id="optionsRadios4">
 						     (D) UML是软件工程的一部分
 					  	</label>
 					</div>
@@ -106,25 +107,25 @@
 					<div class="radio">
 						
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2">
+						    <input type="radio" name="optionsRadioss" id="optionsRadio1">
 						    (A) 单继承
 					  	</label>
 					</div>
 					<div class="radio disabled">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2" checked>
+						    <input type="radio" name="optionsRadioss" id="optionsRadio2" >
 						    (B) 多继承
 					  	</label>
 					</div>
 					<div class="radio">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2">
+						    <input type="radio" name="optionsRadioss" id="optionsRadio3">
 						     (C) 单继承和多继承都支持
 					  	</label>
 					</div>
 					<div class="radio">
 					  	<label>
-						    <input type="radio" name="optionsRadios" id="optionsRadios2">
+						    <input type="radio" name="optionsRadioss" id="optionsRadio4">
 						     (D) 单继承和多继承都不支持
 					  	</label>
 					</div>
@@ -139,26 +140,26 @@
 				<h5><strong>1. 用例的粒度分为以下哪三种：</strong></h5>
 				<div class="choose-pad1">
 					<div class="checkbox">
-				  	<label>
-					    <input type="checkbox" value="">
-					    (A) 概述级
-				  	</label>
+						<label>
+							<input type="checkbox" value="" name="checkmore1">
+							(A) 概述级
+						</label>
 					</div>
 					<div class="checkbox">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore1">
 						    (B) 需求级
 					  	</label>
 					</div>
 					<div class="checkbox">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore1">
 						    (C) 用户目标级
 					  	</label>
 					</div>
 					<div class="checkbox pad">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore1">
 						    (D) 子功能级
 					  	</label>
 					</div>
@@ -167,25 +168,25 @@
 				<div class="choose-pad">
 					<div class="checkbox">
 				  	<label>
-					    <input type="checkbox" value="">
+					    <input type="checkbox" value="" name="checkmore2">
 					    (A) 名称（Name）
 				  	</label>
 					</div>
 					<div class="checkbox">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore2">
 						    (B) 属性（Attribute）
 					  	</label>
 					</div>
 					<div class="checkbox">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore2">
 						    (C) 操作（Operation）
 					  	</label>
 					</div>
 					<div class="checkbox pad">
 					  	<label>
-						    <input type="checkbox" value="">
+						    <input type="checkbox" value="" name="checkmore2">
 						    (D) 方法（Function）
 					  	</label>
 					</div>
@@ -198,15 +199,15 @@
 			<div class="row choose-pad">
 			 	<div class="col-md-3">1. 用例图只是用于和客户交流和沟通的，用于确定需求。</div>
 			  	<div class="col-md-4">
-			  		<input type="radio" name="">&#10004 
-			  		<input type="radio" name="">&#10006  
+			  		<input type="radio" name="choose1">&#10004
+			  		<input type="radio" name="choose1">&#10006
 			  	</div>
 			</div>
 			<div class="row choose-pad">
 			 	<div class="col-md-3">2. 在状态图中，终止状态在一个状态图中允许有任意多个。</div>
 			  	<div class="col-md-5">
-			  		<input type="radio" name="">&#10004 
-			  		<input type="radio" name="">&#10006  
+			  		<input type="radio" name="choose2">&#10004
+			  		<input type="radio" name="choose2">&#10006
 			  	</div>
 			</div>
 		</div>
@@ -216,36 +217,13 @@
 			<div class="choose-pad">
 				<h5><strong>1. 简述什么是模型以及模型的表现形式？</strong></h5>
 				<div class="choose-pad1">
-					<textarea class="form-control" rows="3" style="width: 50%">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+					<textarea class="form-control" rows="3" style="width: 50%" name="texts"></textarea>
 				</div>
 			</div>
 		</div>
 		<div>
-			<button class="btn btn-default choose-pad" type="submit">计算分数</button>
+			<button class="btn btn-default choose-pad" type="submit" id="count" onclick="indexfun()">计算分数</button>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 		<!-- Modal -->
 		<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -267,4 +245,5 @@
 		  </div>
 		</div> -->
     </body>
+	<script src="js/index.js"></script>
 </html>
